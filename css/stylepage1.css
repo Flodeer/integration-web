@@ -1,0 +1,640 @@
+.nav1
+{
+    background-color: white;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul
+{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #615B57;
+}
+
+nav ul li a:hover
+{
+    font-weight: bold;
+}
+
+.navbox
+{
+    box-shadow: 1px 1px 0px #aaa;
+}
+
+.centrer
+{
+    margin-top: -4px;
+}
+
+
+.logo
+{
+    height: 47px;
+    position: relative;
+    top: 14px;
+    display: inline;
+}
+
+.logosans
+{
+    
+    height: 55px;
+    position: relative;
+    top: 10px;
+}
+
+
+.navbararg
+{
+    font-size: 14px;
+    position: relative;
+    bottom: 7px;
+    margin-left: 76px;
+}
+
+.boutton
+{
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    bottom: 7px;
+    margin-left: 47px;
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+
+.boutton a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.boutton:hover
+{
+    background-color: #707070;
+}
+
+
+.boutton2
+{
+    border-radius: 25px;
+    background-color:#00FF00;
+    position: relative;
+    bottom: 7px;
+    margin-left: 35px;
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+.boutton2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.boutton2:hover
+{
+    background-color: #82FF82;
+}
+
+.dropdown 
+{
+    position: relative;
+    bottom: 50px;
+    left: 1427px;
+
+}
+
+
+.dropdown .dropbtn 
+{
+  font-size: 16px;
+  border: none;
+  padding: 8px 11px;
+  box-shadow: 1px 1px 0px #aaa;
+  border-radius: 15px;
+  color: black;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 45px;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 11px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+
+.banniere
+{
+    width: 100%;
+    position: static;
+}
+
+.Main
+{
+    margin: -8px;
+}
+
+.titrebanniere
+{
+    color: white;
+    position: absolute;
+    left: 115px;
+    font-size: 25px;
+    top: 115px;
+}
+
+.titrebanniere p
+{
+    font-size: 30px;
+    color: white;
+    width: 840px;
+}
+
+.titrebanniere p span
+{
+    background-color: #00FF00;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+.textbanniere
+{
+    font-weight: bold;
+    background-color: #00FF00;
+    color: black;
+    width: 476px;
+    font-size: 30px;
+}
+
+.textban2
+{
+    position: relative;
+    bottom: 64px;
+    left: 484px;
+    font-size: 30px;
+}
+
+.ajust
+{
+    margin-top: -64px;
+    width: 646px;
+    font-size: 30px;
+}
+
+.shop
+{
+    position: relative;
+    top: 55px;
+    left: 80px;
+    font-size: 40px;
+    color: #615B57;
+    width: 200px;
+    font-weight: none;
+}
+
+.gridd
+ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1049px;
+    gap: 20px 5px;
+}
+
+.col1
+{
+    border: 1px solid gray;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.col2
+{
+  border: 1px solid gray;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.entercol1
+{
+    color: #615B57;
+    position: relative;
+    left: 88px;
+    top: 20px;
+    font-size: 30px;
+}
+.enterp1
+{
+  color: #615B57;
+  position: relative;
+  left: 38px;
+  top: 20px;
+  font-size: 19px;
+  margin-right: 144px;
+  margin-left: 51px;
+}
+.imageP
+{
+    width: 521px;
+    margin-top: 25px;
+}
+.Letzshop
+{
+    background-color: black;
+    color: white;
+    height: 70px;
+    margin-top: -36px;
+}
+.styleletezshop
+{
+    text-align: center;
+    position: relative;
+    top: 19px;
+    font-size: 23px;
+}
+.b2b
+{
+  background-color:#00FF00 ;
+  color: white;
+  height: 71px;
+  margin-top: -37px;
+}
+
+.fond
+{
+    background-color: white;
+    width: 726px;
+}
+
+.background
+{
+    position: absolute;
+    right: 359px;
+    z-index: 1;
+    width: 962px;
+}
+body
+{
+    font-family: 'DM Sans';
+    margin: 0%;
+    height: 100%;
+}
+
+.magasin
+{
+    position: relative;
+    z-index: 10;
+}
+
+.coll1
+{
+    margin-top: 194px;
+    margin-left: 84px;
+    background-color: white;
+    width: 614px;
+    height: 365px;
+}
+
+.titremag
+{
+    font-size: 50px;
+    color: #615B57;
+    width: 200px;
+    font-weight: none;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+.gridd2
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1049px;
+    gap: 20px 5px;
+}
+
+.minigrid
+{
+    border: 1px solid gray;
+    width: 148px;
+    position: relative;
+    top: 38px;
+    left: 35px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 22px;
+    text-align: center;
+}
+
+.minigrid2
+{
+    border: 1px solid gray;
+    position: relative;
+    width: 118px;
+    right: 79px;
+    text-align: center;
+    top: 38px;
+    height: 22px;
+}
+
+.minigrid3
+{
+    border: 1px solid gray;
+    position: relative;
+    width: 146px;
+    right: 214px;
+    text-align: center;
+    top: 38px;
+    height: 22px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.minigrid4
+{
+    border: 1px solid gray;
+    position: relative;
+    width: 118px;
+    right: 330px;
+    text-align: center;
+    top: 38px;
+    height: 22px;
+}
+
+.corpsmagasin
+{
+    width: 617px;
+    margin-left: 36px;
+    margin-top: 61px;
+    font-size: 15px;
+}
+
+.btnlocation
+{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 187px;
+    height: 34px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.bouttonlocation
+{
+    position: relative;
+    bottom: 20px;
+    background-color: white;
+}
+
+.imagejav
+{
+    width: 377px;
+    margin-top: 60px;
+    margin-right: 6px;
+}
+
+
+.photomec
+{
+    position: relative;
+    top: 240px;
+    left: 531px;
+    width: 993px;
+    height: 389px;
+    z-index: 100;
+}
+
+.newcase
+{
+    display: flex;
+}
+
+.colll1
+{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.4);
+    margin-top: -99px;
+    margin-left: 169px;
+    width: 815px;
+    height: 271px;
+    background-color: white;
+    z-index: 200;
+}
+
+.picto1
+{
+    width: 103px;
+    padding: 37px;
+}
+
+.conseil
+{
+    color: #707070;
+    position: relative;
+    bottom: 80px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.conseilp
+{
+    width: 548px;
+    margin-left: 183px;
+    margin-top: -49px;
+    font-size: 17px;
+    color: #707070;
+}
+
+.photo2
+{
+    position: relative;
+    width: 993px;
+    top: 324px;
+    z-index: 100;
+}
+
+.newcase2
+{
+    display: flex;
+}
+
+.case1
+{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.4);
+    margin-top: -12px;
+    margin-left: 645px;
+    width: 815px;
+    height: 271px;
+    background-color: white;
+    z-index: 200;
+}
+.picto2
+{
+    width: 99px;
+    margin-top: 38px;
+    margin-left: 42px;
+}
+
+.servicetech
+{
+    margin-left: 195px;
+    margin-top: -68px;
+    font-size: 20px;
+    color: #707070;
+    font-weight: bold;
+}
+
+.servicep
+{
+    width: 544px;
+    margin-left: 195px;
+    margin-top: 27px;
+    color: #707070;
+
+}
+
+footer
+{
+    background-color: #615B57;
+    position: relative;
+    bottom: 0px;
+}
+
+.boutonquestion
+{
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 299px;
+    height: 34px;
+    font-size: 17px;
+    margin-top: 205px;
+    margin-left: 588px;
+    cursor: pointer;
+
+}
+
+.boutonquestion a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.boutonquestion:hover
+{
+    background-color: #707070;
+    border: none;
+}
+
+.fin
+{
+    height: 120px;
+    margin-top: 160px;
+}
+
+.logofin
+{
+    position: relative;
+    top: 61px;
+    left: 139px;
+    width: 100px;
+}
+
+.titrefin
+{
+    color: white;
+    margin-left: 38px;
+    font-size: 20px;
+}
+
+.titrefin1
+{
+    color: white;
+    margin-left: 38px;
+    font-size: 20px;
+}
+
+.placementtitrefin
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1436px;
+    margin-top: -87px;
+}
+
+.placementtitrefin ul li
+{
+    text-decoration: none;
+    color: #CFC8C6;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.grid3 
+{
+    margin-left: 285px;
+}
+
+.grid4 
+{
+    margin-left: 142px;
+}
+
+.reseau
+{
+    position: relative;
+    width: 161px;
+    left: 981px;
+    bottom: 127px;
+}
+
+.carousel
+{
+    top: 100px;
+    z-index: 10;
+}
